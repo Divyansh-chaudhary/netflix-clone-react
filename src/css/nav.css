@@ -1,0 +1,17 @@
+.nav {
+	position: fixed;
+	background: transparent;
+	z-index: 1;
+	width: 100%;
+	transition: ease-in 0.2s;
+	padding: 20px;
+}
+
+.nav img {
+	height: 35px;
+	object-fit:contain;
+}
+
+.nav-black {
+	background: #111;
+}

@@ -1,0 +1,48 @@
+header.banner {
+	height: 400px;
+	object-fit:contain;
+	min-height: 400px;
+	position:relative;
+}
+
+header.banner .content {
+	margin-left: 30px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+}
+
+.banner-bottom {
+	position: absolute;
+	bottom:0;
+	left: 0;
+	right:0;
+	height: 100px;
+	background-image: linear-gradient(180deg, transparent, rgba(37,37,37,0.61),#111);
+}
+
+header.banner h1 {
+	font-size: 2.9rem;
+}
+
+header.banner button {
+	padding: 0.8rem 2rem;
+	outline: none;
+	border: none;
+	background: rgba(51,51,51,0.5);
+	color: white;
+	cursor: pointer;
+	margin-right: 10px;
+	margin-top: 1.4rem;
+	margin-bottom:1.4rem;
+	font-weight: 400;
+	font-size: 1rem;
+}
+
+header.banner button:hover {
+	color: black;
+	background: rgba(255,255,255,0.8);
+	transition: all 0.2s;
+}
